@@ -41,8 +41,13 @@ function fadedEls(el, shift) {
         // Sections height & scrolling
         $(window).resize(function() {
             var sH = $(window).height();
-            $('section.header-10-sub').css('height', (sH - $('header').outerHeight()) + 'px');
-           // $('section:not(.header-10-sub):not(.content-11)').css('height', sH + 'px');
+            console.log(sH);
+            var vPx = (sH - $('header').outerHeight());
+            vPx += 50;
+            $('section.header-10-sub').css('height', vPx + 'px');
+            $('section.content-23').css('height', vPx + 'px');
+            $('section.content-7').css('height', vPx + 'px');
+            $('section.content-8').css('height', vPx + 'px');
         });        
 
         // Parallax

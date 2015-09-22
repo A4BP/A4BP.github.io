@@ -787,7 +787,7 @@ header .brand img:first-child {
   margin: -10px 15px 0 0;
 }
 section * {
-  z-index: 2;
+  z-index: 10;
 }
 .background {
   position: absolute;
@@ -990,7 +990,7 @@ section * {
 .header-10-sub .hero-unit {
   padding: 0;
   margin: 0;
-  background-color: transparent;
+  background-color: rgba(78, 68, 68, 0.51);
 }
 .header-10-sub .hero-unit h1 {
   margin: 0 0 30px;
@@ -1001,9 +1001,9 @@ section * {
   font-weight: 300;
 }
 .header-10-sub .hero-unit p {
-  font-size: 25px;
+  font-size: 35px;
   font-weight: normal;
-  color: #bdc3c7;
+  color: #ffffff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 37.5px;
@@ -1025,12 +1025,12 @@ section * {
   }
 }
 .header-10-sub .hero-unit.hero-unit-bordered h1 {
-  font-size: 46px;
+  font-size: 60px;
   font-weight: normal;
   color: #ffffff;
   font-weight: 500;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  border: 8px solid white;
+  border: 8px solid #ffffff;
   display: inline-block;
   margin: 0;
   padding: 30px 40px;
@@ -1231,8 +1231,6 @@ section * {
  * Content 8 stylesheet  
  * */
 .content-8 {
-  padding-top: 130px;
-  padding-bottom: 130px;
   position: relative;
   text-align: center;
 }
@@ -1465,7 +1463,7 @@ section * {
   text-align: center;
   padding: 0;
   margin: 0;
-  background-color: rgba(0, 0, 0, 0.41);
+  background-color: transparent;
 }
 .content-23 .hero-unit h1 {
   margin: 0 0 30px;
@@ -1639,8 +1637,7 @@ section * {
 }
 .content-7,
 .content-8 {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top:0px;
 }
 @media (max-width: 767px) {
   .content-7,

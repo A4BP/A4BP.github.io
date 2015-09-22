@@ -14,9 +14,19 @@
 .navbar .navbar-form .btn {
   padding-top: 10px;
 }
-
+.header-10 .navbar .btn {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.header-10 .navbar .navbar-form {
+  padding: 1px 0 19px 60px;
+}
 .section-a4bp{
   /*
   padding-top: 50px;
   */
+}
+.container {
+    padding-top: 100px;
 }
