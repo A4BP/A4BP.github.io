@@ -851,19 +851,27 @@ section * {
   color: #7f8c8d;
   background-color: white;
 }
-/* header */
+
+
+
 /**
  * Header 10 stylesheet  
  * */
 .header-10 {
-  z-index: 100;
-  width: 100%;
   padding-top: 0;
   padding-bottom: 0;
-  height: 80px;
+  height: 50px;
   background: #233240;
   color: white;
+  width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+  width: 100%;
+  z-index: 100;
 }
+
+
 .header-10 .navbar {
   position: absolute;
   z-index: 2;
@@ -1457,7 +1465,7 @@ section * {
   text-align: center;
   padding: 0;
   margin: 0;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.41);
 }
 .content-23 .hero-unit h1 {
   margin: 0 0 30px;
@@ -1655,11 +1663,11 @@ section * {
 .content-23 .control-btn {
   opacity: 10;
   filter: alpha(opacity=1000);
-  opacity: 0.1;
+  opacity: 0.8;
   filter: alpha(opacity=10);
 }
 .content-23.custom-bg {
-  background-image: url('../img/Italy_001.png');
+  background-image: url('../img/earthquake.png');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
